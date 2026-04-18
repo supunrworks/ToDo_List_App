@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(197, 243, 243);
+    font-family:sans-serif
+}
+
+#wrapper {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem;
+    max-width: 600px;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.8em;
+    
+}
+
+input , button {
+    padding:0.5em;
+}
+
+li {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.done {
+    background: rgb(47, 255, 57);
+    
+}
+
+.del {
+    background: rgb(255, 0, 0);
+    color: white;
+}
+
+input, .item {
+    flex: 1;
+}
+
+ul {
+    list-style: none;
+}
+
+#sub {
+    background-color:rgb(63, 62, 62);
+    color: white;
+}
