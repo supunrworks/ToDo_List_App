@@ -5,8 +5,24 @@
 }
 
 body {
-    font-family:sans-serif
+    font-family: sans-serif;
+    background-color: #f0f0f0;
 }
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family: "Sekuya", system-ui;
+    font-size: 50px;
+    margin-top: 30px;
+}
+
+/* #srch {
+    width: 50%;
+    margin: 0 auto;
+    padding: 2rem;
+    max-width: 400px;
+} */
 
 #wrapper {
     width: 80%;
@@ -15,42 +31,60 @@ body {
     max-width: 600px;
 }
 
-form {
+
+#taskform {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 0.8em;    
+    margin-bottom: 0.8em;
 }
 
-input , button {
-    padding:0.5em;
+input,
+button {
+    padding: 0.5em;
 }
 
 #txttask {
     padding: 20px;
+    border: solid black;
     border-radius: 10px;
+    font-size: large;
 }
 
 li {
     cursor: pointer;
-    background-color: black;
+    background-color: rgb(63, 62, 62);
+    border-radius: 10px;
     color: white;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px;
+    padding: 17px;
+    margin-bottom: 5px;
 }
 
 .done {
-    background: rgb(47, 255, 57);
-    
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.done:hover {
+    background-color: rgb(202, 202, 202);
 }
 
 .del {
-    background: rgb(255, 0, 0);
-    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 10px;
 }
 
-input, .item {
+.del:hover {
+    background-color: rgb(202, 202, 202);
+}
+
+input,
+.item {
     flex: 1;
 }
 
@@ -59,9 +93,10 @@ ul {
 }
 
 #sub {
-    background-color:rgb(63, 62, 62);
+    background-color: rgb(63, 62, 62);
     color: white;
     padding: 20px;
     border-radius: 10px;
     margin-left: 5px;
+    cursor: pointer;
 }
