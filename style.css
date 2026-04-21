@@ -5,7 +5,6 @@
 }
 
 body {
-    background-color: rgb(197, 243, 243);
     font-family:sans-serif
 }
 
@@ -19,12 +18,16 @@ body {
 form {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 0.8em;
-    
+    margin-bottom: 0.8em;    
 }
 
 input , button {
     padding:0.5em;
+}
+
+#txttask {
+    padding: 20px;
+    border-radius: 10px;
 }
 
 li {
@@ -58,4 +61,7 @@ ul {
 #sub {
     background-color:rgb(63, 62, 62);
     color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 5px;
 }
