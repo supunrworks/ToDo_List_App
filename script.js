@@ -14,7 +14,7 @@ sub.addEventListener("click", (e) => {
         additem.innerText = txttask.value;
 
         delbtn.classList.add("del");
-        delbtn.innerText = "Delete";
+        delbtn.innerText = "Delete ";
 
         donebtn.classList.add("done");
         donebtn.innerText = "Done";
