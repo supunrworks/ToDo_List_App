@@ -103,3 +103,21 @@ ul {
     margin-left: 5px;
     cursor: pointer;
 }
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 40px;
+
+    }
+
+    #wrapper {
+        margin-left: 0.5px;
+    }
+
+    #results {
+        width:375px;
+    }
+
+
+
+}
