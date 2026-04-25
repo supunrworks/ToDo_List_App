@@ -6,7 +6,9 @@
 
 body {
     font-family: sans-serif;
-    background-color: #f0f0f0;
+    background: #C33764;
+    background: -webkit-linear-gradient(to right, #1D2671, #C33764);
+    background: linear-gradient(to right, #1D2671, #C33764);
 }
 
 h1 {
@@ -115,7 +117,7 @@ ul {
     }
 
     #results {
-        width:375px;
+        width: 375px;
     }
 
 
