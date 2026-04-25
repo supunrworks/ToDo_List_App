@@ -101,6 +101,7 @@ ul {
     background-color: rgb(63, 62, 62);
     color: white;
     padding: 20px;
+    border: solid black;
     border-radius: 10px;
     margin-left: 5px;
     cursor: pointer;
